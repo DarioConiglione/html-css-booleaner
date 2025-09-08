@@ -1,13 +1,32 @@
 header {
-    background-image: url(../img/pattern.png); 
+    background: url(../img/pattern.png) repeat; 
+    background-size: 300px;
     background-color:#4ea0ff;
-    background-size: 150;
     height: 100px;
-}
-body {
     margin: 0;
+    padding: 0;
 }
 
-main {
-    margin: 20px;
+h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
 }
+
+.logo img {
+  height: 40px;
+  margin-left: 70px;
+  margin-top: 60px;
+}
+
+#author {
+    color: gray;
+    margin-top: 0;
+
+    
+}
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
