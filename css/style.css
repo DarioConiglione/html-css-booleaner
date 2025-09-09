@@ -6,27 +6,71 @@ header {
     margin: 0;
     padding: 0;
 }
+<!--header-->
 
 h1 {
   font-size: 28px;
-  margin-bottom: 30px;
+  margin-bottom: 0; 
 }
 
 .logo img {
-  height: 40px;
   margin-left: 70px;
   margin-top: 60px;
 }
 
-#author {
+#subtitle {
     color: gray;
-    margin-top: 0;
+    margin-bottom: 20px;    
+ }
 
-    
-}
+ #author {
+    color: #4ea0ff;
+ }
 main {
   max-width: 900px;
   margin: 20px auto;
   padding: 0 15px;
 }
 
+#highlighted{
+    background-color: yellow;
+}
+
+/* TABELLA */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+th {
+  background: #20a9e5;
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.alt-row {
+  background: #b1e5f2;
+}
+
+#adv{
+    font-size: 20px;
+    color: gray;
+}
+
+footer {
+    background-image: url(../img/monitor.jpg);
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+h3 {
+    color: white;
+}
+}
